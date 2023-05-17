@@ -1,3 +1,3 @@
 # Vetores
 
-Exercício de utilização de arrays em diferentes laços de repetição (FOR, WHILE e DO WHILE).
+Exercício de utilização de arrays em diferentes laços de repetição (FOR, FOR EACH, WHILE e DO WHILE).
