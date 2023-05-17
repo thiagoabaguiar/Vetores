@@ -62,11 +62,11 @@ public class Vetores {
         int qtdAnosBissextos = 0, qtdAnosNaoBissextos = 0;
 
         for (int ano = anoInicio; ano <= anoFim; ano++) {
-            
+
             restoPor4 = ano % 4;
             restoPor400 = ano % 400;
             restoPor100 = ano % 100;
-            
+
             if (restoPor4 != 0) {
 
                 qtdAnosNaoBissextos++;
@@ -84,13 +84,13 @@ public class Vetores {
                 qtdAnosNaoBissextos++;
 
             }
-            
+
         }
-        
+
         int[] listaAnosBissextos = new int[qtdAnosBissextos];
         int[] listaAnosNaoBissextos = new int[qtdAnosNaoBissextos];
         int posicaoListaAnosBissextos = 0, posicaoListaAnosNaoBissextos = 0;
-        
+
         for (int ano = anoInicio; ano <= anoFim; ano++) {
 
             restoPor4 = ano % 4;
@@ -120,14 +120,14 @@ public class Vetores {
             }
 
         }
-        
+
         System.out.println("***** LISTA DE ANOS BISSEXTOS *****");
-        int i;
-        for (i = 0; i < listaAnosBissextos.length; i++){
+
+        for (int ano : listaAnosBissextos) {
             
-            System.out.println(listaAnosBissextos[i]);
+            System.out.println(ano);
             
-        }        
+        }
 
     }
 ;
